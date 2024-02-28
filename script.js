@@ -3,4 +3,4 @@ let browserName=navigator.appName;
 let version=navigator.appVersion;
 
 let infoBox=document.getElementById('browser-info');
-infoBox.textContent="You are using " + browserName + " version " + version
+infoBox.innerText="You are using " + browserName + " version " + version
